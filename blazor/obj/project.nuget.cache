@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "hJw/MJgVP9XnP0TKN2Q8N0YgzSI2jwEK6po3uYj+oUFrmKzRJJk8i4V04HXBEL5ATGD65XmUjFGkg38r2buY/Q==",
+  "success": false,
+  "projectFilePath": "/out/blazor/blazor.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.Components.WebAssembly with version (>= 6.0.0-rc.1.21419.28)\n  - Found 30 version(s) in nuget.org [ Nearest version: 6.0.0-preview.7.21378.6 ]",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly",
+      "targetGraphs": [
+        "net6.0",
+        "net6.0/browser-wasm"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.Components.WebAssembly.DevServer with version (>= 6.0.0-rc.1.21419.28)\n  - Found 30 version(s) in nuget.org [ Nearest version: 6.0.0-preview.7.21378.6 ]",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+      "targetGraphs": [
+        "net6.0",
+        "net6.0/browser-wasm"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Runtime.Mono.browser-wasm with version (= 6.0.0-rc.1.21419.17)\n  - Found 4 version(s) in nuget.org [ Nearest version: 6.0.0-preview.7.21377.19 ]",
+      "libraryId": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
